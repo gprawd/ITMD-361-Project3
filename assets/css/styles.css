@@ -1,0 +1,98 @@
+body {  background-color: rgb(123, 142, 145);
+    color: rgb(191, 219, 255);
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
+}
+ol,ul {
+    list-style: none;
+}
+@font-face {
+    font-family: "Harabara Bold";
+    src: url("css/fonts/Harabara.eot");
+    src:
+    url("css/fonts/Harabara.woff") format("woff"),
+    url("css/fonts/Harabara.otf") format("opentype"),
+    url("css/fonts/Harabara.svg#filename") format("svg");
+}         
+h1 { padding-top: 50px;
+}
+.frontpage img{
+    border:10px solid #ccc;
+}
+.about img{
+    border:10px solid rgb(87, 16, 201);
+}
+nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: 'Harabara Bold';
+}
+nav li{
+    display:inline;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration:none;
+    background-color:rgb(211, 197, 208);
+    color:rgb(15, 32, 32);
+}
+nav a:hover {
+    background-color:#009;
+    color:#fff;
+}
+.resume{
+    text-align:left;
+}
+.resume h1 {
+    text-align: center;
+}
+.resume a {
+    text-align: center;
+}
+.resume h3 {
+    color: rgb(3, 103, 110);
+}
+.about p {
+    padding: 10px;
+    text-justify: auto ;
+    color: rgb(191, 219, 255);
+}
+@media only screen and (max-width: 1024px) {
+    #wrapper { width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+    }
+    body { margin: 0;
+        padding: 0;
+    }
+    header {padding-top: 1px;
+    }
+    .menu nav { float: top ;
+        width: auto;
+        padding-left: 2em;
+    }
+    .menu nav a { padding: 0.2em;
+        margin-left: 0.3em;
+        float: top;
+        width: 23%;
+    }
+    main { padding-top: 2.5em;
+        padding-bottom: 2.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: 0;
+        font-size: 90%;
+        clear: both;
+    } 
+    p { padding: 0em 2em;
+    }
+    main ul { margin-left: 2em;
+    }  
+}
+
