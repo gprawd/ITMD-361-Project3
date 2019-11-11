@@ -4,8 +4,10 @@ body {  background-color: rgb(123, 142, 145);
     text-align: center;
 }
 #map {
-    height: 400px;  /* The height is 400 pixels */
-    width: 100%;  /* The width is the width of the web page */
+    width: 800px;
+    height: 600px;
+    background-color: rgb(248, 158, 158);
+    margin: 50px auto 
 
 }
 ol,ul {
