@@ -69,7 +69,7 @@ nav a:hover {
     text-justify: auto ;
     color: rgb(191, 219, 255);
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     #wrapper { width: 100%;
         min-width: 0;
         margin: 0;
@@ -101,5 +101,34 @@ nav a:hover {
     }
     main ul { margin-left: 2em;
     }  
+}
+@media only screen and (min-width: 720px) {
+    #wrapper { width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+    }
+    body { margin: 0;
+        padding: 0;
+    }
+    header {padding-top: 1px;
+    }
+    .menu nav { display: inline-block;
+        width: auto;
+    }
+    .menu nav a { padding: 0.2em;
+        margin-left: 0.3em;
+        display: inline-block; 
+    }
+    main { padding-top: 2.5em;
+        padding-bottom: 2.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: 0;
+        font-size: 90%;
+        clear: both;
+    } 
+    p { padding: 0em 2em;
+    }
 }
 
