@@ -11,4 +11,4 @@ function initMap() {
     var transitLayer = new google.maps.TransitLayer();
     transitLayer.setMap(map);    
   }
-  
+ 
